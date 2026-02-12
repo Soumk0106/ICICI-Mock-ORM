@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npx serve .",
     "bundle": "esbuild index.tsx --bundle --outfile=dist/bundle.js --format=esm --loader:.tsx=tsx --loader:.ts=ts --minify",
-    "electron-build": "npm run bundle && electron-builder build --win --portable"
+    "electron-build": "npm run bundle && electron-builder build --win"
   },
   "dependencies": {
     "lucide-react": "^0.463.0",
