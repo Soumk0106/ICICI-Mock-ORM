@@ -1,0 +1,7 @@
+{
+  "name": "Copy of ICICI Mock Demo Application",
+  "description": "A mobile-native payments application implementing Amazonization principles for SWIFT, RTGS, and NEFT transactions with maximum auto-fill and predictive intelligence.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,16 @@
+
+{
+  "short_name": "ICICI Pay",
+  "name": "ICICI Bank - Smart Payments",
+  "icons": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/ICICI_Bank_Logo.svg/256px-ICICI_Bank_Logo.svg.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#EF6623",
+  "background_color": "#FAF9F7"
+}

@@ -1,0 +1,14 @@
+
+{
+  "appId": "com.icicimock.app",
+  "appName": "ICICI Smart Payments",
+  "webDir": ".",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true
+  }
+}

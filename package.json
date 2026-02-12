@@ -1,0 +1,39 @@
+
+{
+  "name": "icici-smart-payments",
+  "version": "1.0.0",
+  "description": "ICICI Bank Smart Payments Mobile-Native Demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx serve .",
+    "bundle": "esbuild index.tsx --bundle --outfile=dist/bundle.js --format=esm --loader:.tsx=tsx --loader:.ts=ts --minify",
+    "electron-build": "npm run bundle && electron-builder build --win --portable"
+  },
+  "dependencies": {
+    "lucide-react": "^0.463.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3",
+    "esbuild": "^0.20.0"
+  },
+  "build": {
+    "appId": "com.icicimock.app",
+    "productName": "ICICI_Smart_Payments",
+    "directories": {
+      "output": "dist-desktop"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/ICICI_Bank_Logo.svg/256px-ICICI_Bank_Logo.svg.png"
+    },
+    "files": [
+      "dist/bundle.js",
+      "index.html",
+      "main.js",
+      "package.json"
+    ]
+  }
+}
